@@ -16,4 +16,25 @@ class WebController extends GetxController {
     "assets/icons/Profile.svg",
     "assets/icons/Logout.svg",
   ];
+
+  List<String> topCartsImages = [
+    "assets/images/Rectangle 17.png",
+    "assets/images/Rectangle 17-1.png",
+    "assets/images/Rectangle 17-2.png",
+  ];
+  List<String> topCartsAlbums = [
+    "Golden age of 80s",
+    "Reggae “n” blues",
+    "Tomorrow’s tunes",
+  ];
+  List<String> topCartsArtist = [
+    "Sean swadder",
+    "Dj YK mule",
+    "Obi Datti",
+  ];
+  List<String> topCartsDurations = [
+    "2:34:45",
+    "1:02:42",
+    "2:01:25",
+  ];
 }

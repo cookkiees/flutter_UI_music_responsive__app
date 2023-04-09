@@ -10,15 +10,19 @@
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<data>
-		y8JRtda3DhltccgTTfE9rKyG1YE=
+		QNPwJxgyjzw3pqy7zPvkWzwrlQY=
 		</data>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<data>
-		vKJkVIcw+LGHFnKJGwrQwCREv68=
+		9M7Dw9L6n3JoMcQ2uz1fCdQsZzs=
 		</data>
 		<key>Resources/flutter_assets/NOTICES.Z</key>
 		<data>
 		520aLWQ6pyABooaHy4pMoXVYZOc=
+		</data>
+		<key>Resources/flutter_assets/assets/fonts/Quicksand-VariableFont_wght.ttf</key>
+		<data>
+		ccGT94NfLXvM6NbUydYFaW12sUo=
 		</data>
 		<key>Resources/flutter_assets/assets/icons/Frame%207.svg</key>
 		<data>
@@ -84,9 +88,25 @@
 		<data>
 		rQJK8SnIwfK6ZHiwqLGwH/OmBvQ=
 		</data>
-		<key>Resources/flutter_assets/assets/images/Pexels%20Photo%20by%20Eric%20Esma.svg</key>
+		<key>Resources/flutter_assets/assets/images/Ellipse%202.png</key>
 		<data>
-		h2KhD64E/hnmC3Iu9+ArzG5R19M=
+		uoiwULsctUhUIcKfNvLp/Z8ZCFs=
+		</data>
+		<key>Resources/flutter_assets/assets/images/Ellipse%203.png</key>
+		<data>
+		fedklZJcFKgoNdhV9/22K/imA/M=
+		</data>
+		<key>Resources/flutter_assets/assets/images/Ellipse%204.png</key>
+		<data>
+		6WSt8G9ot3MxDXizFdfklJPBZBU=
+		</data>
+		<key>Resources/flutter_assets/assets/images/Ellipse%205.png</key>
+		<data>
+		N1BTDMUbPidDIWcga6glmrNF+5U=
+		</data>
+		<key>Resources/flutter_assets/assets/images/Ellipse%206.png</key>
+		<data>
+		JKXcfhQmclZejoWrpweBuhFLd1c=
 		</data>
 		<key>Resources/flutter_assets/assets/images/Rectangle%2014-1.svg</key>
 		<data>
@@ -112,17 +132,25 @@
 		<data>
 		yXw8jkkmNAwRaWHSmzjMyseSAfs=
 		</data>
-		<key>Resources/flutter_assets/assets/images/Rectangle%2017-1.svg</key>
+		<key>Resources/flutter_assets/assets/images/Rectangle%2017-1.png</key>
 		<data>
-		3chYnwvG4m88VLsuIBPSN7PXfpI=
+		Vci2KAk7v5VL3cMa8Nxi/ferKoU=
 		</data>
-		<key>Resources/flutter_assets/assets/images/Rectangle%2017-2.svg</key>
+		<key>Resources/flutter_assets/assets/images/Rectangle%2017-2.png</key>
 		<data>
-		yX9HtDSCYyzAxfcX4pHMeG2z5Ns=
+		JFAqtJ/53SDo2AT0Ef7wrriQv0E=
 		</data>
-		<key>Resources/flutter_assets/assets/images/Rectangle%2017.svg</key>
+		<key>Resources/flutter_assets/assets/images/Rectangle%2017.png</key>
 		<data>
-		hau+Dk53N69n/Zo+/0zDwZfTiRg=
+		n+OAX6+eGNGtEubKaNrM3rWqYO4=
+		</data>
+		<key>Resources/flutter_assets/assets/images/eric-esma-1.svg</key>
+		<data>
+		h2KhD64E/hnmC3Iu9+ArzG5R19M=
+		</data>
+		<key>Resources/flutter_assets/assets/images/eric-esma.png</key>
+		<data>
+		QC5A3rVXa2Scb3NelE575kLmJCg=
 		</data>
 		<key>Resources/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -134,7 +162,7 @@
 		</data>
 		<key>Resources/flutter_assets/kernel_blob.bin</key>
 		<data>
-		449l9Uk6hT/Q5LKxaK3LVAw2wq8=
+		6b65ayXgRHGwE2rfYWI6FVirpVw=
 		</data>
 		<key>Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -162,14 +190,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePl0Dm4MYUNgpAZYvhBXRZahcY5b80JQLim+HqgAyqY=
+			9v9Il0r5boPW3GGA1F/UX8v5e28ntsEXtAiELANK5l8=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zX4DZFvESy3Ue3y2JvUcTsv1Whl6t3JBYotHrBZfviE=
+			R56qPsmxXRBvFmwatpLhFc2W0ucP9aiZZiNDruXuL5M=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/NOTICES.Z</key>
@@ -177,6 +205,13 @@
 			<key>hash2</key>
 			<data>
 			1S2D+iFAm/Oeruqdeo3CAlDE7jW8abahTk6kqKmsO4o=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/fonts/Quicksand-VariableFont_wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BpJ/rhE8NNygozorxSLaH0zMxt2nNYWAkNz0iw8oBTU=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/assets/icons/Frame%207.svg</key>
@@ -291,11 +326,39 @@
 			OT7GXO7j3XxwDVd1jydFEamqdQYGsCy/LL6Hry07zfs=
 			</data>
 		</dict>
-		<key>Resources/flutter_assets/assets/images/Pexels%20Photo%20by%20Eric%20Esma.svg</key>
+		<key>Resources/flutter_assets/assets/images/Ellipse%202.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ysAODNheSR68nN9RGshBQbezxwMpklEk2xAPoO1MwH0=
+			FMxU/jh40yNU4Jjrb3Fmc84wC3O94AhxiuDZlknLIPE=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/Ellipse%203.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			54Z9EpVrWdz8Vr9O87fxTUWxDHfl2IuHPYlPlQlS4wM=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/Ellipse%204.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vcg8xZlZZhnZFQb9u3/K3bc/QmomG+F2yDIhah2YPVQ=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/Ellipse%205.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eGyKEy3jIDLKMe3ZuJ432q8mlfi2+wAfPb21hC4EooY=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/Ellipse%206.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rI9G6F/pC7OHM8YKc3GAUpKtTS9r6+i94mqyCB4M++Q=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/assets/images/Rectangle%2014-1.svg</key>
@@ -340,25 +403,39 @@
 			Iv9/YSMUIpXc/ujwWcgBokYtu5oCXvuXTBvtX9sOa1c=
 			</data>
 		</dict>
-		<key>Resources/flutter_assets/assets/images/Rectangle%2017-1.svg</key>
+		<key>Resources/flutter_assets/assets/images/Rectangle%2017-1.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zy2rC8DAfrwT9m3YLkJpg8I3E79fWit60c1g628KYTU=
+			9s1kG0BVNUMqriP4zh3NkFWM0et7ENpZd/uI3T5NfMM=
 			</data>
 		</dict>
-		<key>Resources/flutter_assets/assets/images/Rectangle%2017-2.svg</key>
+		<key>Resources/flutter_assets/assets/images/Rectangle%2017-2.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1EU1t+lDJ2ZH7iejH/GhTJfkKUs5THbboZ9NU6JZYiQ=
+			4mIkZuGqmB/fszwGI2XlvqWxn3pONOhUdPwhZw5r9D4=
 			</data>
 		</dict>
-		<key>Resources/flutter_assets/assets/images/Rectangle%2017.svg</key>
+		<key>Resources/flutter_assets/assets/images/Rectangle%2017.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UtU7bIpf5h2Ek/FQXFihfCtCqPIFsusdSlHygAq8E58=
+			pcpO0D5zJPdx63vmFvWvdHY0IUELJShyzJCfoYtQIc8=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/eric-esma-1.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ysAODNheSR68nN9RGshBQbezxwMpklEk2xAPoO1MwH0=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/eric-esma.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9XjF/4NL92QxS5Ird1V0it/sJ3Nmop0AkIafHmbjQeg=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -379,7 +456,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g2rP3pBn34Xms81WcWdTpNsRo/qiFx+7Snp3pHn/EOg=
+			UpNixpD/4U8Z/KfHoicaSpURk5NMJy1cUmbaZtMcZQk=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
