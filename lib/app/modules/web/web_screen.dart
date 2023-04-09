@@ -32,26 +32,29 @@ class WebScaffold extends GetView<WebController> {
                   height: MediaQuery.of(context).size.height / 2,
                   child: Stack(
                     children: [
-                      Positioned(
-                        left: 33,
-                        child: Container(
-                          width: 50,
-                          height: 200,
-                          decoration: BoxDecoration(
+                      Column(
+                        children: [
+                          Container(
+                            width: 50,
+                            height: 200,
+                            decoration: BoxDecoration(
                               color: MyColors.dark,
-                              borderRadius: BorderRadius.circular(32)),
-                        ),
-                      ),
-                      Positioned(
-                        left: 33,
-                        bottom: 110,
-                        child: Container(
-                          width: 50,
-                          height: 110,
-                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(32),
+                            ),
+                          ),
+                          const Padding(
+                            padding: EdgeInsets.symmetric(vertical: 24),
+                            child: Divider(),
+                          ),
+                          Container(
+                            width: 50,
+                            height: 120,
+                            decoration: BoxDecoration(
                               color: MyColors.dark,
-                              borderRadius: BorderRadius.circular(32)),
-                        ),
+                              borderRadius: BorderRadius.circular(32),
+                            ),
+                          ),
+                        ],
                       ),
                       ListView.builder(
                         itemCount: controller.icons.length,
