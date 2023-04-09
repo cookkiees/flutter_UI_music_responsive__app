@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		Hc4epDA90nLBooarqawBRGN3Mf4=
+		y8JRtda3DhltccgTTfE9rKyG1YE=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>flutter_assets/assets/icons/Home.svg</key>
 		<data>
-		PvbyCJgyzT3T6ZZaKq7iGpM+zY0=
+		vb+7/KSHLmHAtm26gZ/ubN7yCoQ=
 		</data>
 		<key>flutter_assets/assets/icons/Logout.svg</key>
 		<data>
@@ -47,6 +47,10 @@
 		<key>flutter_assets/assets/icons/logo.svg</key>
 		<data>
 		O5s95vpI2nEcfREAWbqg16lJV1U=
+		</data>
+		<key>flutter_assets/assets/icons/menu%201.svg</key>
+		<data>
+		5c6MZRQJ1WjUj1/E/xhlLXYnEY0=
 		</data>
 		<key>flutter_assets/assets/icons/next.svg</key>
 		<data>
@@ -134,7 +138,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		NA/viCVRBhi2lV8EPTcu/3As4R4=
+		ShuuKFnWzz67UBE3Aukjx807cDs=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -155,7 +159,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c6NCTR2qh4aLDZHthmV4nHktRBQlQIaPjBmjtr9bBaw=
+			ePl0Dm4MYUNgpAZYvhBXRZahcY5b80JQLim+HqgAyqY=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -197,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ExkP8JyF1TgHI4Yt5yI4MwbbCAuPm8crQrjMueyLjs=
+			k9oqfyWwDpyHmsyuOZxJKFvJwTwSvZlmq8ZRbkSQyQM=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/icons/Logout.svg</key>
@@ -212,6 +216,13 @@
 			<key>hash2</key>
 			<data>
 			d1qk7a348mO8CSTAte0rxtAc5zsoEzxuyt4JjVENJNk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/menu%201.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			peGL50DkOOrrg5QAfjhH46n4xMPMPpQ5SnbU/+8xLrU=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/icons/next.svg</key>
@@ -365,7 +376,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DfAnwjeOjJoRuKkJQScOEbFHKZT49G/NTc8Dg0TdnYU=
+			nRzD+rek+K3qOAIwIdpcEmamYHOfdWboA68eZ/d83Z0=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

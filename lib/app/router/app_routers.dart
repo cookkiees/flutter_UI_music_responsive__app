@@ -1,6 +1,6 @@
 abstract class AppRouters {
   static const initial = '/';
-  static const webScaffold = '/webScaffold';
+  static const webScreen = '/webScreen';
   static const webHome = '/webHome';
-  static const mobileScaffold = '/mobileScaffold';
+  static const mobileScreen = '/mobileScreen';
 }
