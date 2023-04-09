@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_music_responsive_app/app/config/size_config.dart';
-import 'package:flutter_music_responsive_app/app/utils/my_colors.dart';
+
 import 'package:flutter_svg/svg.dart';
 
 import 'package:get/get.dart';
 
+import '../../config/size_config.dart';
+import '../../utils/my_colors.dart';
 import 'web_controller.dart';
 
-class WebScaffold extends GetView<WebController> {
-  const WebScaffold({super.key});
+class WebScreen extends GetView<WebController> {
+  const WebScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

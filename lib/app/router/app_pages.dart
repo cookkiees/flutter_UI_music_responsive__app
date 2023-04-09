@@ -1,23 +1,27 @@
-import 'package:flutter_music_responsive_app/app/modules/web/home/home_binding.dart';
-import 'package:flutter_music_responsive_app/app/modules/web/home/home_screen.dart';
 import 'package:get/get.dart';
+import '../modules/mobile/mobile_binding.dart';
+import '../modules/mobile/mobile_screen.dart';
 import '../modules/web/web_binding.dart';
+import '../modules/web/views/web_home/web_home_screen.dart';
 import '../modules/web/web_screen.dart';
 import 'app_routers.dart';
 
 class AppPages {
-  static const initial = AppRouters.webScaffold;
-
   static final routes = [
     GetPage(
-      name: AppRouters.webScaffold,
-      page: () => const WebScaffold(),
+      name: AppRouters.webScreen,
+      page: () => const WebScreen(),
       binding: WebBinding(),
     ),
     GetPage(
       name: AppRouters.webHome,
-      page: () => const HomeScreen(),
-      binding: HomeBinding(),
+      page: () => const WebHomeScreen(),
+      binding: WebBinding(),
+    ),
+    GetPage(
+      name: AppRouters.mobileScreen,
+      page: () => const MobileScreen(),
+      binding: MobileBinding(),
     ),
   ];
 }
