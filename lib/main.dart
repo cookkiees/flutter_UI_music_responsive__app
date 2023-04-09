@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'My App',
       theme: ThemeData(
+        fontFamily: "Quicksand",
         appBarTheme: const AppBarTheme(),
       ),
       home: const ResponsiveLayout(
