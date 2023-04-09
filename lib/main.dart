@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
         mobileScaffold: MobileScaffold(),
         desktopScaffold: WebScaffold(),
       ),
-      initialRoute: AppPages.initial,
       initialBinding: ApiServiceBinding(),
       getPages: AppPages.routes,
       debugShowCheckedModeBanner: false,
