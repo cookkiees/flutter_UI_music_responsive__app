@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_music_responsive_app/app/modules/web/views/web_home/web_home_screen.dart';
 import 'package:flutter_svg/svg.dart';
-
 import 'package:get/get.dart';
-
 import '../../config/size_config.dart';
 import '../../utils/my_colors.dart';
 import 'web_controller.dart';
@@ -16,6 +14,55 @@ class WebScreen extends GetView<WebController> {
     SizeConfig().init(context);
     return Scaffold(
       backgroundColor: MyColors.backgrundColor,
+      appBar: AppBar(
+        elevation: 0,
+        primary: false,
+        backgroundColor: Colors.transparent,
+        toolbarHeight: 100,
+        leadingWidth: 85,
+        leading: Padding(
+          padding: const EdgeInsets.only(left: 24, top: 24),
+          child: SvgPicture.asset(
+            "assets/icons/logo.svg",
+            height: 30,
+          ),
+        ),
+        flexibleSpace: Align(
+          alignment: Alignment.bottomCenter,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 100),
+            child: TextFormField(
+              style: const TextStyle(fontSize: 18, color: Colors.white),
+              decoration: const InputDecoration(
+                contentPadding: EdgeInsets.all(24),
+                filled: true,
+                fillColor: Colors.transparent,
+                hintText: "Search..",
+                hintStyle: TextStyle(color: MyColors.defaultGrey, fontSize: 18),
+                prefixIconConstraints: BoxConstraints(minWidth: 60),
+                prefixIcon: Padding(
+                  padding: EdgeInsets.symmetric(
+                    vertical: 8,
+                    horizontal: 16,
+                  ),
+                  child: Icon(
+                    Icons.search,
+                    color: MyColors.defaultGrey,
+                  ),
+                ),
+                border: OutlineInputBorder(
+                  borderSide: BorderSide.none,
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(
+                      32,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
       body: Row(
         children: <Widget>[
           SizedBox(
@@ -23,11 +70,6 @@ class WebScreen extends GetView<WebController> {
             width: SizeConfig.screenWidth! * 0.07,
             child: ListView(
               children: [
-                const SizedBox(height: 32),
-                SvgPicture.asset(
-                  "assets/icons/logo.svg",
-                  height: 60,
-                ),
                 const SizedBox(height: 64),
                 SizedBox(
                   height: MediaQuery.of(context).size.height / 2,
@@ -91,15 +133,11 @@ class WebScreen extends GetView<WebController> {
               ],
             ),
           ),
-          const VerticalDivider(thickness: 1, width: 1),
           Expanded(
             child: Center(
               child: Obx(() {
                 if (controller.selectedIndex.value == 0) {
-                  return const Text(
-                    "Home",
-                    style: TextStyle(color: Colors.white),
-                  );
+                  return const WebHomeScreen();
                 } else if (controller.selectedIndex.value == 1) {
                   return const Text(
                     'Playlist',
