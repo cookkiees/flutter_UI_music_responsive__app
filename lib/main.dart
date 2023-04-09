@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_music_responsive_app/app/modules/responsive/mobile/mobile_screen.dart';
-import 'package:flutter_music_responsive_app/app/modules/responsive/responsive_layout/responsive_layout.dart';
-import 'package:flutter_music_responsive_app/app/modules/responsive/web/web_screen.dart';
+import 'package:flutter_music_responsive_app/app/modules/mobile/mobile_screen.dart';
+import 'package:flutter_music_responsive_app/app/modules/responsive/responsive_layout.dart';
+import 'package:flutter_music_responsive_app/app/modules/web/web_screen.dart';
 import 'package:get/get.dart';
 import 'app/router/app_pages.dart';
 import 'app/services/api_service_binding.dart';
@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         appBarTheme: const AppBarTheme(),
       ),
-      home: const ResponsiveLayout(
-        mobileScaffold: MobileScaffold(),
+      home: ResponsiveLayout(
+        mobileScaffold: const MobileScaffold(),
         desktopScaffold: WebScaffold(),
       ),
       initialRoute: AppPages.initial,
