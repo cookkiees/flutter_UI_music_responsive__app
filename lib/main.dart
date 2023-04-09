@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         appBarTheme: const AppBarTheme(),
       ),
-      home: ResponsiveLayout(
-        mobileScaffold: const MobileScaffold(),
+      home: const ResponsiveLayout(
+        mobileScaffold: MobileScaffold(),
         desktopScaffold: WebScaffold(),
       ),
       initialRoute: AppPages.initial,
