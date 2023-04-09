@@ -1,6 +1,6 @@
-import 'package:flutter_music_responsive_app/app/modules/responsive/web/web_binding.dart';
-import 'package:flutter_music_responsive_app/app/modules/responsive/web/web_screen.dart';
 import 'package:get/get.dart';
+import '../modules/web/web_binding.dart';
+import '../modules/web/web_screen.dart';
 import 'app_routers.dart';
 
 class AppPages {
