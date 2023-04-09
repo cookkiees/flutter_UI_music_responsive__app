@@ -470,7 +470,7 @@
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/src/xml_events/utils/named.dart
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/src/xml_events/visitor.dart
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/xml_events.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/DOES_NOT_EXIST_RERUN_FOR_WILDCARD1000923648
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/DOES_NOT_EXIST_RERUN_FOR_WILDCARD754604000
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/.DS_Store
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Frame 7.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Heart-1.svg
@@ -478,6 +478,7 @@
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Home.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Logout.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/logo.svg
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/menu 1.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/next.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/playlist.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/previous.svg
@@ -487,7 +488,7 @@
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/shuffle.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/videos.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/volume-high.svg
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Pexels Photo by Eric Esma.svg
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/.DS_Store
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 14-1.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 14-2.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 14-3.svg
@@ -497,9 +498,14 @@
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 17-1.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 17-2.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 17.svg
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/eric-esma-1.svg
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/eric-esma.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/config/size_config.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/mobile/mobile_binding.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/mobile/mobile_controller.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/mobile/mobile_screen.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/responsive/responsive_layout.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/views/web_home/web_home_screen.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_binding.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_controller.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_screen.dart

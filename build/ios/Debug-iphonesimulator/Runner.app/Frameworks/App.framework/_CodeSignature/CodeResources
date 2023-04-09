@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		y8JRtda3DhltccgTTfE9rKyG1YE=
+		Q+zy+NHSDipvVMZQap5JcoGit1M=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>flutter_assets/assets/icons/Home.svg</key>
 		<data>
-		vb+7/KSHLmHAtm26gZ/ubN7yCoQ=
+		/QM1Dj/5qt5I9yvXEdch2zS6p00=
 		</data>
 		<key>flutter_assets/assets/icons/Logout.svg</key>
 		<data>
@@ -88,6 +88,10 @@
 		<data>
 		rQJK8SnIwfK6ZHiwqLGwH/OmBvQ=
 		</data>
+		<key>flutter_assets/assets/images/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>flutter_assets/assets/images/Pexels%20Photo%20by%20Eric%20Esma.svg</key>
 		<data>
 		h2KhD64E/hnmC3Iu9+ArzG5R19M=
@@ -128,6 +132,14 @@
 		<data>
 		hau+Dk53N69n/Zo+/0zDwZfTiRg=
 		</data>
+		<key>flutter_assets/assets/images/eric-esma-1.svg</key>
+		<data>
+		h2KhD64E/hnmC3Iu9+ArzG5R19M=
+		</data>
+		<key>flutter_assets/assets/images/eric-esma.png</key>
+		<data>
+		QC5A3rVXa2Scb3NelE575kLmJCg=
+		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
 		/CUoTuPQqqdexfyOT9lpJhV+2MQ=
@@ -138,7 +150,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		ShuuKFnWzz67UBE3Aukjx807cDs=
+		KBrRRtZweRfklOMEsFKbUef/bTY=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -159,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePl0Dm4MYUNgpAZYvhBXRZahcY5b80JQLim+HqgAyqY=
+			jCxWGnYtqyXY8xna1e/ACg6iO/+mDoxHSvmM26zgJCQ=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -201,7 +213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k9oqfyWwDpyHmsyuOZxJKFvJwTwSvZlmq8ZRbkSQyQM=
+			9wpPl7mJ/U/26/UFy3wmeFfTsvf9W0ob9EblRN2PTBU=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/icons/Logout.svg</key>
@@ -358,6 +370,20 @@
 			UtU7bIpf5h2Ek/FQXFihfCtCqPIFsusdSlHygAq8E58=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/eric-esma-1.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ysAODNheSR68nN9RGshBQbezxwMpklEk2xAPoO1MwH0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/eric-esma.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9XjF/4NL92QxS5Ird1V0it/sJ3Nmop0AkIafHmbjQeg=
+			</data>
+		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<dict>
 			<key>hash2</key>
@@ -376,7 +402,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nRzD+rek+K3qOAIwIdpcEmamYHOfdWboA68eZ/d83Z0=
+			DNXO1Aj8vQXUTPETnqC6kc3ivBg4viqBIJ6jASBvLVM=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
