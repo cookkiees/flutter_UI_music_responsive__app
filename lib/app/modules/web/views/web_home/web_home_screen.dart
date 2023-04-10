@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_music_responsive_app/app/config/size_config.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import '../../../../components/card_currated_playlist_widget.dart';
 import '../../../../components/title_widget.dart';
@@ -16,6 +18,7 @@ class WebHomeScreen extends GetView<WebController> {
       body: Padding(
         padding: const EdgeInsets.only(top: 32, right: 32),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -47,10 +50,41 @@ class WebHomeScreen extends GetView<WebController> {
                           );
                         },
                       ),
-                    )
+                    ),
                   ],
                 )
               ],
+            ),
+            const Padding(
+              padding: EdgeInsets.only(top: 32, bottom: 16),
+              child: TitleWidget(
+                title: "New Releases",
+              ),
+            ),
+            SizedBox(
+              width: SizeConfig.screenWidth,
+              height: 280,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: controller.newReleasesImages.length,
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 32),
+                    child: Container(
+                      height: 300,
+                      width: 280,
+                      color: Colors.white,
+                      child: Column(
+                        children: [
+                          Image.asset(controller.newReleasesImages[index]),
+                          Text(controller.newReleasesTitle[index]),
+                          Text(controller.newReleasesArtist[index]),
+                        ],
+                      ),
+                    ),
+                  );
+                },
+              ),
             )
           ],
         ),

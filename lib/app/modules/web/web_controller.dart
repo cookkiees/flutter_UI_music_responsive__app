@@ -17,6 +17,8 @@ class WebController extends GetxController {
     "assets/icons/Logout.svg",
   ];
 
+// TOP CHARTS
+
   List<String> topCartsImages = [
     "assets/images/Rectangle 17.png",
     "assets/images/Rectangle 17-1.png",
@@ -36,5 +38,35 @@ class WebController extends GetxController {
     "2:34:45",
     "1:02:42",
     "2:01:25",
+  ];
+
+  // NEW RELEASES
+
+  List<String> newReleasesImages = [
+    "assets/images/Rectangle 14.png",
+    "assets/images/Rectangle 14-1.png",
+    "assets/images/Rectangle 14-2.png",
+    "assets/images/Rectangle 14-3.png",
+    "assets/images/Rectangle 14-4.png",
+    "assets/images/Rectangle 14-5.png",
+    "assets/images/Rectangle 14-6.png",
+  ];
+  List<String> newReleasesTitle = [
+    "Life in a bubble",
+    "Mountain",
+    "Limits",
+    "Everything’s black",
+    "Cancelled",
+    "Nomad",
+    "Blind",
+  ];
+  List<String> newReleasesArtist = [
+    "The van",
+    "Krisx",
+    "John Dillion",
+    "Ameed",
+    "Enimen",
+    "Makrol eli",
+    "Wiz zee",
   ];
 }
