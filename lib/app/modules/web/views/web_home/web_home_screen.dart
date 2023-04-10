@@ -1,8 +1,5 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_music_responsive_app/app/config/size_config.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import '../../../../components/card_currated_playlist_widget.dart';
 import '../../../../components/recommendation_widget.dart';
@@ -107,7 +104,7 @@ class WebHomeScreen extends GetView<WebController> {
                   },
                 ),
               ),
-              const SizedBox(height: 32)
+              const SizedBox(height: 140)
             ],
           ),
         ),
