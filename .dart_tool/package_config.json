@@ -122,6 +122,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "percent_indicator",
+      "rootUri": "file:///Users/aldojohanda/.pub-cache/hosted/pub.dev/percent_indicator-4.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "petitparser",
       "rootUri": "file:///Users/aldojohanda/.pub-cache/hosted/pub.dev/petitparser-5.1.0",
       "packageUri": "lib/",
@@ -206,7 +212,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-04-10T03:52:47.474869Z",
+  "generated": "2023-04-10T03:55:58.680159Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }
