@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_music_responsive_app/app/modules/web/views/web_home/web_home_screen.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
+import '../../components/play_music.dart';
 import '../../config/size_config.dart';
 import '../../utils/my_colors.dart';
 import 'web_controller.dart';
@@ -169,6 +170,8 @@ class WebScreen extends GetView<WebController> {
           ),
         ],
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: const PlayMusicWidget(),
     );
   }
 }
