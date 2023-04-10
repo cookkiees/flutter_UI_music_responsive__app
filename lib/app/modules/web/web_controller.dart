@@ -43,12 +43,12 @@ class WebController extends GetxController {
   // NEW RELEASES
 
   List<String> newReleasesImages = [
-    "assets/images/Rectangle 14.png",
     "assets/images/Rectangle 14-1.png",
     "assets/images/Rectangle 14-2.png",
     "assets/images/Rectangle 14-3.png",
     "assets/images/Rectangle 14-4.png",
     "assets/images/Rectangle 14-5.png",
+    "assets/images/Rectangle 14.png",
     "assets/images/Rectangle 14-6.png",
   ];
   List<String> newReleasesTitle = [

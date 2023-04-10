@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_music_responsive_app/app/config/size_config.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import '../../../../components/card_currated_playlist_widget.dart';
 import '../../../../components/title_widget.dart';
@@ -71,14 +70,32 @@ class WebHomeScreen extends GetView<WebController> {
                   return Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 32),
                     child: Container(
-                      height: 300,
-                      width: 280,
-                      color: Colors.white,
+                      padding: const EdgeInsets.all(2),
+                      height: 200,
+                      width: 201,
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Image.asset(controller.newReleasesImages[index]),
-                          Text(controller.newReleasesTitle[index]),
-                          Text(controller.newReleasesArtist[index]),
+                          Image.asset(
+                            controller.newReleasesImages[index],
+                            height: 200,
+                            fit: BoxFit.fill,
+                          ),
+                          Text(
+                            controller.newReleasesTitle[index],
+                            style: const TextStyle(
+                                fontFamily: "Quicksand",
+                                fontSize: 16,
+                                color: Colors.white),
+                          ),
+                          Text(
+                            controller.newReleasesArtist[index],
+                            style: const TextStyle(
+                                fontFamily: "Quicksand",
+                                fontSize: 16,
+                                color: MyColors.defaultGrey),
+                          ),
                         ],
                       ),
                     ),
