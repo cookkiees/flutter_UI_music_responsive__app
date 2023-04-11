@@ -60,6 +60,9 @@ class WebMyCollectionScreen extends GetView<WebController> {
               ),
             ),
           ),
+          const SizedBox(
+            height: 32,
+          ),
           Expanded(
             child: TabBarView(
               controller: controller.tabController,

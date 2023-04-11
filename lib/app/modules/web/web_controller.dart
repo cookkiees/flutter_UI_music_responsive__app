@@ -85,4 +85,13 @@ class WebController extends GetxController
     "Makrol eli",
     "Wiz zee",
   ];
+  List<String> time = [
+    "4:12",
+    "3:00",
+    "2.57",
+    "3:12",
+    "2:33",
+    "4:22",
+    "3:21",
+  ];
 }

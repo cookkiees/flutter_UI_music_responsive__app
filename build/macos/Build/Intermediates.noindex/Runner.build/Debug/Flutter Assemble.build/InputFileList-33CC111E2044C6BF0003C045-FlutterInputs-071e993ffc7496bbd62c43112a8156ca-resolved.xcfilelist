@@ -474,7 +474,7 @@
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/src/xml_events/utils/named.dart
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/src/xml_events/visitor.dart
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/xml_events.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/DOES_NOT_EXIST_RERUN_FOR_WILDCARD283070898
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/DOES_NOT_EXIST_RERUN_FOR_WILDCARD745196499
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/fonts/Quicksand-VariableFont_wght.ttf
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/.DS_Store
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Frame 7.svg
@@ -499,6 +499,7 @@
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Ellipse 4.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Ellipse 5.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Ellipse 6.png
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Lead.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 14-1.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 14-2.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 14-3.png
@@ -521,7 +522,9 @@
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/mobile/mobile_controller.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/mobile/mobile_screen.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/responsive/responsive_layout.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/views/web_home/top_charts/tomorrows_tunes.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/views/web_home/web_home_screen.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/views/web_mycollection/web_mycollection_screen.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_binding.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_controller.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_screen.dart

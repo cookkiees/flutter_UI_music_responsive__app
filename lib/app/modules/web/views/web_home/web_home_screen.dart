@@ -16,6 +16,7 @@ class WebHomeScreen extends GetView<WebController> {
     return Scaffold(
       backgroundColor: MyColors.backgrundColor,
       body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
         child: Padding(
           padding: const EdgeInsets.only(top: 32, right: 32),
           child: Column(
@@ -36,7 +37,7 @@ class WebHomeScreen extends GetView<WebController> {
                       const SizedBox(height: 8),
                       SizedBox(
                         height: 420,
-                        width: 600,
+                        width: MediaQuery.of(context).size.width / 3,
                         child: ListView.builder(
                           itemCount: controller.topCartsImages.length,
                           itemBuilder: (context, index) {

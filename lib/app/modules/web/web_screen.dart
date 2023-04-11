@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_music_responsive_app/app/modules/web/views/web_home/web_home_screen.dart';
-import 'package:flutter_music_responsive_app/app/modules/web/views/web_mycollection/web_mycollection_screen.dart';
+
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import '../../components/play_music.dart';
 import '../../config/size_config.dart';
 import '../../utils/my_colors.dart';
+import 'views/web_home/top_charts/tomorrows_tunes.dart';
+import 'views/web_home/web_home_screen.dart';
+import 'views/web_mycollection/web_mycollection_screen.dart';
 import 'web_controller.dart';
 
 class WebScreen extends GetView<WebController> {
@@ -157,6 +159,8 @@ class WebScreen extends GetView<WebController> {
                     "Profile",
                     style: TextStyle(color: Colors.white),
                   );
+                } else if (controller.selectedIndex.value == 6) {
+                  return const TomorrowsTunesScreen();
                 } else {
                   return const Text(
                     "Logout",
