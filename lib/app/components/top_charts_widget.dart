@@ -83,7 +83,17 @@ class TopChartsWidget extends StatelessWidget {
               "assets/icons/Heart-1.svg",
             ),
           ),
-        )
+        ),
+        ElevatedButton(
+          style: ElevatedButton.styleFrom(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16)),
+              minimumSize: const Size(610, 120),
+              backgroundColor: Colors.transparent,
+              elevation: 0),
+          onPressed: () {},
+          child: null,
+        ),
       ],
     );
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_music_responsive_app/app/modules/web/views/web_home/web_home_screen.dart';
+import 'package:flutter_music_responsive_app/app/modules/web/views/web_mycollection/web_mycollection_screen.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import '../../components/play_music.dart';
@@ -140,10 +141,7 @@ class WebScreen extends GetView<WebController> {
                 if (controller.selectedIndex.value == 0) {
                   return const WebHomeScreen();
                 } else if (controller.selectedIndex.value == 1) {
-                  return const Text(
-                    'Playlist',
-                    style: TextStyle(color: Colors.white),
-                  );
+                  return const WebMyCollectionScreen();
                 } else if (controller.selectedIndex.value == 2) {
                   return const Text(
                     'Radio',
