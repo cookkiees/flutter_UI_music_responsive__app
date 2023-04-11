@@ -16,7 +16,6 @@ class PlayMusicWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 130,
-      width: SizeConfig.screenWidth,
       decoration: BoxDecoration(
         color: Colors.transparent,
         borderRadius: BorderRadius.circular(10),
@@ -105,7 +104,9 @@ class PlayMusicWidget extends StatelessWidget {
                     ),
                     SizedBox(
                       width: 900,
+                      height: 15,
                       child: LinearPercentIndicator(
+                        barRadius: const Radius.circular(8),
                         lineHeight: 12,
                         percent: 0.5,
                         progressColor: Colors.amber,
@@ -123,6 +124,7 @@ class PlayMusicWidget extends StatelessWidget {
                 SizedBox(
                   width: 200,
                   child: LinearPercentIndicator(
+                    barRadius: const Radius.circular(8),
                     lineHeight: 6,
                     percent: 0.5,
                     progressColor: Colors.amber,
