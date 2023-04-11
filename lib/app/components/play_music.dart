@@ -103,7 +103,7 @@ class PlayMusicWidget extends StatelessWidget {
                       ],
                     ),
                     SizedBox(
-                      width: 900,
+                      width: MediaQuery.of(context).size.width / 2,
                       height: 15,
                       child: LinearPercentIndicator(
                         barRadius: const Radius.circular(8),
@@ -122,7 +122,7 @@ class PlayMusicWidget extends StatelessWidget {
                   height: 24,
                 ),
                 SizedBox(
-                  width: 200,
+                  width: MediaQuery.of(context).size.width / 8,
                   child: LinearPercentIndicator(
                     barRadius: const Radius.circular(8),
                     lineHeight: 6,

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_music_responsive_app/app/modules/web/web_controller.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 
 import '../utils/my_colors.dart';
 
-class TopChartsWidget extends StatelessWidget {
+class TopChartsWidget extends GetView<WebController> {
   const TopChartsWidget({
     super.key,
     required this.images,
@@ -23,6 +25,7 @@ class TopChartsWidget extends StatelessWidget {
         Container(
           alignment: Alignment.centerLeft,
           height: 110,
+          width: MediaQuery.of(context).size.width,
           padding: const EdgeInsets.all(17),
           decoration: BoxDecoration(
               color: MyColors.dark, borderRadius: BorderRadius.circular(16)),
@@ -71,7 +74,6 @@ class TopChartsWidget extends StatelessWidget {
           right: 21,
           child: Container(
             height: 40,
-            width: 40,
             padding: const EdgeInsets.all(6),
             decoration: BoxDecoration(
               shape: BoxShape.circle,
@@ -88,10 +90,10 @@ class TopChartsWidget extends StatelessWidget {
           style: ElevatedButton.styleFrom(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16)),
-              minimumSize: const Size(610, 120),
+              minimumSize: Size(MediaQuery.of(context).size.width, 120),
               backgroundColor: Colors.transparent,
               elevation: 0),
-          onPressed: () {},
+          onPressed: () => controller.selectedIndex.value = 6,
           child: null,
         ),
       ],
