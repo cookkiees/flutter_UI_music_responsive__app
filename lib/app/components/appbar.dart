@@ -77,6 +77,8 @@ class MyAppbar extends GetView<MainController> {
               )
             ],
           )
+        else
+          const SizedBox()
       ],
     );
   }

@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 
 import '../../../../components/recommendation_widget.dart';
 import '../../../../config/size_config.dart';
-import '../../../main/main_controller.dart';
 
 class PopularPage extends GetView<HomeController> {
   const PopularPage({
