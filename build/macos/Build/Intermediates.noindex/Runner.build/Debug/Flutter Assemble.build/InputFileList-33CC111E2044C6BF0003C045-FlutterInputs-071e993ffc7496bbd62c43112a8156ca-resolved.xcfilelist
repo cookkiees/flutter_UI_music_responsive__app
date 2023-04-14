@@ -474,7 +474,7 @@
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/src/xml_events/utils/named.dart
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/src/xml_events/visitor.dart
 /Users/aldojohanda/.pub-cache/hosted/pub.dev/xml-6.2.2/lib/xml_events.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/DOES_NOT_EXIST_RERUN_FOR_WILDCARD745196499
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/DOES_NOT_EXIST_RERUN_FOR_WILDCARD346309919
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/fonts/Quicksand-VariableFont_wght.ttf
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/.DS_Store
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Frame 7.svg
@@ -482,8 +482,10 @@
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Heart.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Home.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Logout.svg
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/Play.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/logo.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/menu 1.svg
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/music-square-add.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/next.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/playlist.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/icons/previous.svg
@@ -499,6 +501,7 @@
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Ellipse 4.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Ellipse 5.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Ellipse 6.png
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Lead.jpg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Lead.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 14-1.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 14-2.png
@@ -512,24 +515,22 @@
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/Rectangle 17.png
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/eric-esma-1.svg
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/assets/images/eric-esma.png
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/components/appbar.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/components/card_currated_playlist_widget.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/components/drawer.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/components/play_music.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/components/recommendation_widget.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/components/title_widget.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/components/top_charts_widget.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/config/size_config.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/mobile/mobile_binding.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/mobile/mobile_controller.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/mobile/mobile_screen.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/home/home_controller.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/home/home_page.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/home/widgets/newrealeses/new_realeses.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/home/widgets/popular/popular.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/home/widgets/topcharts/topcharts.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/main/main_controller.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/main/main_page.dart
+/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/playlist/playlist_controller.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/responsive/responsive_layout.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/views/web_home/top_charts/tomorrows_tunes.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/views/web_home/web_home_screen.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/views/web_mycollection/web_mycollection_screen.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_binding.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_controller.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/modules/web/web_screen.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/router/app_pages.dart
-/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/router/app_routers.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/services/api_service.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/services/api_service_binding.dart
 /Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/lib/app/utils/my_colors.dart

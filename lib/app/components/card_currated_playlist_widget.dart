@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_music_responsive_app/app/modules/main/main_controller.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 
-class CardCurratedPlaylistWidget extends StatelessWidget {
+class CardCurratedPlaylistWidget extends GetView<MainController> {
   const CardCurratedPlaylistWidget({
     super.key,
   });
@@ -10,7 +12,8 @@ class CardCurratedPlaylistWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 450,
-      width: 800,
+      width:
+          controller.isPhone(context) ? MediaQuery.of(context).size.width : 800,
       decoration: BoxDecoration(
         color: const Color(0xFF609EAF),
         borderRadius: BorderRadius.circular(48),
@@ -113,15 +116,17 @@ class CardCurratedPlaylistWidget extends StatelessWidget {
               ],
             ),
           ),
-          Positioned(
-            bottom: 0,
-            right: 0,
-            child: Image.asset(
-              "assets/images/eric-esma.png",
-              fit: BoxFit.fill,
-              height: 450,
-            ),
-          ),
+          controller.isPhone(context)
+              ? const SizedBox()
+              : Positioned(
+                  bottom: 0,
+                  right: 0,
+                  child: Image.asset(
+                    "assets/images/eric-esma.png",
+                    fit: BoxFit.fill,
+                    height: 450,
+                  ),
+                ),
         ],
       ),
     );

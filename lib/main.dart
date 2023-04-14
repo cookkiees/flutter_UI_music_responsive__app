@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'app/modules/mobile/mobile_screen.dart';
-import 'app/modules/responsive/responsive_layout.dart';
-import 'app/modules/web/web_screen.dart';
-import 'app/router/app_pages.dart';
+import 'app/modules/main/main_page.dart';
 import 'app/services/api_service_binding.dart';
 
 void main() {
@@ -21,12 +18,9 @@ class MyApp extends StatelessWidget {
         fontFamily: "Quicksand",
         appBarTheme: const AppBarTheme(),
       ),
-      home: const ResponsiveLayout(
-        mobileScaffold: MobileScreen(),
-        desktopScaffold: WebScreen(),
-      ),
+      home: const MainPage(),
       initialBinding: ApiServiceBinding(),
-      getPages: AppPages.routes,
+      // getPages: AppPages.routes,
       debugShowCheckedModeBanner: false,
     );
   }

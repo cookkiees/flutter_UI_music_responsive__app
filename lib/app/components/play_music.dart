@@ -1,13 +1,14 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_music_responsive_app/app/modules/main/main_controller.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
-import '../config/size_config.dart';
 import '../utils/my_colors.dart';
 
-class PlayMusicWidget extends StatelessWidget {
+class PlayMusicWidget extends GetView<MainController> {
   const PlayMusicWidget({
     super.key,
   });
@@ -15,124 +16,143 @@ class PlayMusicWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 130,
-      decoration: BoxDecoration(
-        color: Colors.transparent,
-        borderRadius: BorderRadius.circular(10),
-        boxShadow: [
-          BoxShadow(
-            color: MyColors.defaultGrey.withOpacity(0.01),
-            spreadRadius: 5,
-            blurRadius: 7,
-            offset: const Offset(1, 3),
-          ),
-        ],
+      height: controller.isPhone(context) ? 96 : 130,
+      decoration: const BoxDecoration(
+        color: MyColors.backgrundColor,
       ),
-      child: ClipRRect(
-        child: BackdropFilter(
-          blendMode: BlendMode.srcIn,
-          filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
-          child: Container(
-            padding: const EdgeInsets.only(left: 100, top: 8, bottom: 8),
-            color: MyColors.defaultGrey.withOpacity(0.2),
-            child: Row(
-              children: [
-                Image.asset("assets/images/Rectangle 14-5.png"),
-                const SizedBox(width: 16),
-                Padding(
-                  padding: const EdgeInsets.only(top: 16, right: 100),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
-                      Text(
-                        "Cancelled",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontFamily: "Quicksand",
-                          fontStyle: FontStyle.normal,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                      SizedBox(
-                        height: 8,
-                      ),
-                      Text(
-                        "Eminem",
-                        style: TextStyle(
-                          color: MyColors.defaultGrey,
-                          fontSize: 14,
-                          fontFamily: "Quicksand",
-                          fontStyle: FontStyle.normal,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      )
-                    ],
+      child: Container(
+        padding: controller.isPhone(context)
+            ? const EdgeInsets.only(left: 16, top: 8, right: 16, bottom: 8)
+            : const EdgeInsets.only(left: 100, top: 8, bottom: 8),
+        child: Row(
+          children: [
+            if (controller.isPhone(context))
+              Image.asset(
+                "assets/images/Rectangle 14-5.png",
+                height: 50,
+              )
+            else
+              Image.asset("assets/images/Rectangle 14-5.png"),
+            const SizedBox(width: 16),
+            Padding(
+              padding: const EdgeInsets.only(top: 16, right: 100),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: const [
+                  Text(
+                    "Cancelled",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontFamily: "Quicksand",
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
-                ),
-                Column(
-                  children: [
-                    Row(
+                  SizedBox(
+                    height: 8,
+                  ),
+                  Text(
+                    "Eminem",
+                    style: TextStyle(
+                      color: MyColors.defaultGrey,
+                      fontSize: 14,
+                      fontFamily: "Quicksand",
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Column(
+              children: [
+                if (controller.isPhone(context))
+                  Padding(
+                    padding: const EdgeInsets.only(),
+                    child: Row(
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 32),
-                          child: SvgPicture.asset(
-                            "assets/icons/shuffle.svg",
-                            height: 24,
-                          ),
-                        ),
-                        SvgPicture.asset(
-                          "assets/icons/previous.svg",
-                          height: 24,
-                        ),
                         SvgPicture.asset(
                           "assets/icons/Frame 7.svg",
-                          height: 90,
+                          height: 80,
                         ),
                         SvgPicture.asset(
                           "assets/icons/next.svg",
                           height: 24,
                         ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 32),
-                          child: SvgPicture.asset(
-                            "assets/icons/repeate-one.svg",
-                            height: 24,
-                          ),
-                        ),
                       ],
                     ),
-                    SizedBox(
-                      width: MediaQuery.of(context).size.width / 2,
-                      height: 15,
-                      child: LinearPercentIndicator(
-                        barRadius: const Radius.circular(8),
-                        lineHeight: 12,
-                        percent: 0.5,
-                        progressColor: Colors.amber,
+                  )
+                else
+                  Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 32),
+                        child: SvgPicture.asset(
+                          "assets/icons/shuffle.svg",
+                          height: 24,
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-                const SizedBox(
-                  width: 60,
-                ),
-                SvgPicture.asset(
-                  "assets/icons/volume-high.svg",
-                  height: 24,
-                ),
-                SizedBox(
-                  width: MediaQuery.of(context).size.width / 8,
-                  child: LinearPercentIndicator(
-                    barRadius: const Radius.circular(8),
-                    lineHeight: 6,
-                    percent: 0.5,
-                    progressColor: Colors.amber,
+                      SvgPicture.asset(
+                        "assets/icons/previous.svg",
+                        height: 24,
+                      ),
+                      SvgPicture.asset(
+                        "assets/icons/Frame 7.svg",
+                        height: 90,
+                      ),
+                      SvgPicture.asset(
+                        "assets/icons/next.svg",
+                        height: 24,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 32),
+                        child: SvgPicture.asset(
+                          "assets/icons/repeate-one.svg",
+                          height: 24,
+                        ),
+                      ),
+                    ],
                   ),
-                )
+                if (controller.isPhone(context))
+                  const SizedBox()
+                else
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width / 2,
+                    height: 15,
+                    child: LinearPercentIndicator(
+                      barRadius: const Radius.circular(8),
+                      lineHeight: 12,
+                      percent: 0.5,
+                      progressColor: Colors.amber,
+                    ),
+                  ),
               ],
             ),
-          ),
+            if (controller.isPhone(context))
+              const SizedBox()
+            else
+              Row(
+                children: [
+                  const SizedBox(
+                    width: 60,
+                  ),
+                  SvgPicture.asset(
+                    "assets/icons/volume-high.svg",
+                    height: 24,
+                  ),
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width / 8,
+                    child: LinearPercentIndicator(
+                      barRadius: const Radius.circular(8),
+                      lineHeight: 6,
+                      percent: 0.5,
+                      progressColor: Colors.amber,
+                    ),
+                  ),
+                ],
+              )
+          ],
         ),
       ),
     );
