@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "4054a7dbc6ddecb4e26bcbbd9dc1971fb05f5c3fe1f5574af5fd8f378076f179"
+build_start_time: [1681438517, 876916000]
+build_end_time: [1681438519, 225244000]
+inputs:
+  "/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/macos/Flutter/GeneratedPluginRegistrant.swift": [1681438512, 664012254]
+  "/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/macos/Runner/AppDelegate.swift": [1671141040, 0]
+  "/Users/aldojohanda/Projects/GitHub/Flutter_music_responsive_app/macos/Runner/MainFlutterWindow.swift": [1671141040, 0]

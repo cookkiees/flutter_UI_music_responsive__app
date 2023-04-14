@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'app/router/app_pages.dart';
+import 'app/modules/main/main_page.dart';
 import 'app/services/api_service_binding.dart';
 
 void main() {
@@ -15,11 +15,12 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'My App',
       theme: ThemeData(
+        fontFamily: "Quicksand",
         appBarTheme: const AppBarTheme(),
       ),
-      initialRoute: AppPages.initial,
+      home: const MainPage(),
       initialBinding: ApiServiceBinding(),
-      getPages: AppPages.routes,
+      // getPages: AppPages.routes,
       debugShowCheckedModeBanner: false,
     );
   }
